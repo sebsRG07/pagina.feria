@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inicio</title>
+    <title>San Pedro de Macorís, el nariiiii</title>
     <link rel="stylesheet" href="pagina.css">
 </head>
 <body>
@@ -12,21 +12,65 @@
         <img src="download.jpg" alt="Logo" class="Logo">
         <nav>
             <ul>
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="objetivo.html">Objetivo</a></li>
-                <li><a href="contactar.html">Contacto</a></li>
+                <li><a href="inicio">Inicio</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+                <li><a href="#turismo">Turismo</a></li>
+                <li><a href="#reservar">Reservar</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-          <img src="">
+
+        <section id="inicio" class="section">
             <h1>Bienvenidos a San Pedro de Macorís</h1>
             <p>Ubicado en el corazón de la región Este de la República Dominicana, San Pedro de Macorís es mucho más que una ciudad: es un destino vibrante que late al ritmo de su cultura, su historia y su gente.
-                Conocida como la "Cuna de los Poetas" y tierra de grandes glorias del béisbol, esta ciudad combina el legado histórico con la energía moderna de una comunidad orgullosa de sus raíces. Aquí, el arte se respira en cada esquina, el mar abraza sus costas con brisas suaves, y cada visitante es recibido con calidez y sonrisas genuinas.
-                Explorar San Pedro de Macorís es sumergirse en un mundo donde el pasado y el presente se entrelazan, invitándote a vivir experiencias inolvidables en uno de los rincones más auténticos y encantadores del Caribe.</p>
+            Conocida como la "Cuna de los Poetas" y tierra de grandes glorias del béisbol, esta ciudad combina el legado histórico con la energía moderna de una comunidad orgullosa de sus raíces.</p>
+            <p>Explorar San Pedro de Macorís es sumergirse en un mundo donde el pasado y el presente se entrelazan, invitándote a vivir experiencias inolvidables en uno de los rincones más auténticos y encantadores del Caribe.</p>
         </section>
+
+        <section id="cultura" class="section">
+            <h2>La cuna de la poesía y la música</h2>
+            <p>San Pedro de Macorís es uno de los epicentros culturales más importantes de la República Dominicana. La ciudad es famosa por haber dado vida a una generación de brillantes poetas, cuyas obras han enriquecido el patrimonio literario nacional.</p>
+            <p>La herencia cultural de San Pedro es el resultado de una mezcla fascinante de influencias africanas, europeas y caribeñas. Este crisol se refleja en su arquitectura victoriana, sus carnavales vibrantes y su gastronomía única.</p>
+            <p>Eventos como la Feria Regional del Libro, festivales de poesía y conciertos populares en el malecón mantienen viva la llama cultural y ofrecen a los visitantes una inmersión auténtica en el alma artística de la ciudad.</p>
+        </section>
+
+        <section id="turismo" class="section">
+            <h2>Un paraíso para explorar, sentir y disfrutar</h2>
+            <p>San Pedro de Macorís ofrece un abanico de opciones turísticas que combinan naturaleza, historia y entretenimiento:</p>
+            <ul>
+                <li>El Malecón, ideal para caminar frente al mar y degustar comida local.</li>
+
+                <li>Las casas victorianas del centro histórico, con arquitectura e historia fascinante.</li>
+
+                <li>La Catedral San Pedro Apóstol, joya arquitectónica de gran valor.</li>
+
+                <li>El Estadio Tetelo Vargas, templo del béisbol dominicano.</li>
+
+                <li>Playas como Juan Dolio y Guayacanes, perfectas para descansar y disfrutar del mar.</li>
+            </ul>
+        </section>
+
+        <section id="reservar" class="section">
+            <h2>Reservar alojamiento</h2>
+            <p>¿Listo para descubrir San Pedro de Macorís? Completa el siguiente formulario para reservar tu hospedaje y comenzar tu aventura.</p>
+            <form class="formulario">
+                <input type="text" name="nombre" placeholder="Nombre completo" required>
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+                <input type="date" name="fecha_entrada" required>
+                <input type="date" name="fecha_salida" required>
+                <select name="tipo_alojamiento" required>
+                    <option value="">Tipo de alojamiento</option>
+                    <option value="hotel">Hotel</option>
+                    <option value="hostal">Hostal</option>
+                    <option value="apartamento">Apartamento</option>
+                </select>
+                <textarea name="mensaje" rows="4" placeholder="Comentarios adicionales (opcional)"></textarea>
+                <button type="submit">Reservar ahora</button>
+            </form>
+        </section>
+
     </main>
 
     <footer>
